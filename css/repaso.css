@@ -1,4 +1,4 @@
-@import url('reset.css');
+/* @import url('reset.css');
 
 body{
     background-color: steelblue;
@@ -16,7 +16,7 @@ main{
 
 .banner, .descripcion, .nosotros, .productos{
     width: 100%;
-    height: 25%;
+   
     border: solid 3px black;
 }
 
@@ -53,3 +53,24 @@ height: 500px;
     width: 100%;
     background-color: white;
 }
+
+.staff{
+    height: 280px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(191, 250, 13);
+
+
+    .persona{
+        height: 100%;
+        width: 25%;
+        background-color: rgba(172, 0, 0, 0.575)
+    }
+    .foto{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: blue;
+    }
+} 
+
